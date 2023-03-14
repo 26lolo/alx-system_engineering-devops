@@ -1,2 +1,2 @@
 #!/bin/bash
-$(echo "obase=16;$n" | bc) $DECIMAL
+$(echo "n* 16**1 + n) $DECIMAL
