@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$DECIMAL* 16**1 + $DECIMAL\n"
+echo $DECIMAL | printf("$DECIMAL* 16**1 + $DECIMAL\n")
