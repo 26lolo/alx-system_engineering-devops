@@ -1,1 +1,22 @@
-The shell scripts in this file are basic shell commands that can be executed when prompted
+  #Shell Basics#
+
+- Script that prints the absolute path name of the current working directory.
+- Script that display the contents list of your current directory.
+- Script that changes the working directory to the user’s home directory.
+- Script that display current directory contents in a long format
+- Script that display current directory contents, including hidden files (starting with .). Use the long format.
+- Script that display current directory contents in Long format, with user and group IDs displayed numerically, And hidden files (starting with .)
+- Script that creates a directory named my_first_directory in the /tmp/ directory.
+- Script that Move the file betty from /tmp/ to /tmp/my_first_directory
+- Script that Delete the file betty.
+- Script that Delete the directory my_first_directory that is in the /tmp directory.
+- Script that changes the working directory to the previous one.
+- Script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
+- Script that prints the type of the file named iamafile.
+- Script that Create a symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory.
+- Script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
+- Script that moves all files beginning with an uppercase letter to the directory /tmp/u.
+- Script that deletes all files in the current working directory that end with the character ~.
+- Script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
+- Script that Write a command that lists all the files and directories of the current directory, separated by commas (,), with Directory names ending with a slash (/),listing being alpha ordered, except for the directories . and .. which should be listed at the very beginning, only digits and letters used to sort, and listing ending in a new line.
+- Script that Create a magic file school.mgc that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0.
