@@ -1,2 +1,2 @@
 #!/bin/bash
-$(echo "n* 16**1 + n) $DECIMAL
+echo "$DECIMAL* 16**1 + $DECIMAL\n"
